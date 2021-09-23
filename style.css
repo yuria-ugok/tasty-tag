@@ -452,6 +452,10 @@ video {
 }
 
 /*****お問い合わせ*****/
+.contact {
+    text-align: center;
+}
+
 .contact a,
 .contact_form button {
     background-repeat: no-repeat;
@@ -467,7 +471,7 @@ video {
     color: #fffffe;
     display: block;
     font-size: 30px;
-    margin: 150px auto;
+    margin: 150px auto 0;
     padding: 20px 0;
     text-decoration: none;
     transition: background-position ease 0.4s;
@@ -477,6 +481,10 @@ video {
 .contact a:hover,
 .contact_form button:hover {
     background-position: 0 0;
+}
+
+.contact p {
+    margin: 0 auto 150px;
 }
 
 /*****お問い合わせフォーム*****/
@@ -541,7 +549,7 @@ video {
     outline: none;
 }
 
-.contact_form p {
+.contact_form p:not(.notes) {
     color: #594a4e;
     font-size: 14px;
     margin: 10px 0 42px 45%;
@@ -563,6 +571,10 @@ video {
     margin: 0;
     margin-top: 110px;
     padding: 22px 0;
+}
+
+.notes {
+    margin: 20px 0;
 }
 
 /*****フッター*****/
